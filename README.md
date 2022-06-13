@@ -1,3 +1,3 @@
 # my first clone project - kokoa with Nomad Coder
 
-CSS is so much fun !
+HTML & CSS is so much fun !
