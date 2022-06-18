@@ -5,9 +5,23 @@
     margin-right:20px;
 }
 
+.user-component__avatar--xl {
+    width: 80px;
+    height:80px;
+    border-radius: 27px;
+    margin-right:20px;
+}
+
+.user-component__avatar--xs {
+    width: 60px;
+    height:60px;
+    border-radius: 20px;
+    margin-right:20px;
+}
+
+.user-component,
 .user-component__column:first-child {
     display:flex;
-    margin: 15px;
     align-items: center;
 }
 
