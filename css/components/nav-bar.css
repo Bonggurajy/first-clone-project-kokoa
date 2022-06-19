@@ -18,36 +18,12 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width:18px;
-    height: 18px;;
-    border-radius: 9px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size:11px;
-    color:white;
     position:absolute;
     bottom : 11px;
     left:11px;
 }
 
-.nav__notification:nth-child(2) {
-    background-color: tomato;
-    width:18px;
-    height: 18px;;
-    border-radius: 9px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size:11px;
-    color:white;
-    position:absolute;
-    bottom : 11px;
-    left:11px;
-}
-
-li:last-child .nav__notification {
+.nav__notification--dot {
     background-color: tomato;
     width: 4px;
     height: 4px;;
