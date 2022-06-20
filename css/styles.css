@@ -13,6 +13,7 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 
 body {
@@ -22,4 +23,8 @@ body {
 
 .main-screen {
     padding:0px var(--horizontal-space);
+}
+
+.set-relative {
+    position:relative;
 }

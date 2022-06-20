@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>chats-Kokoa Clone</title>
+    <title>find-Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -26,28 +26,41 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
-            <span><i class="fa-solid fa-music fa-lg"></i></span>
-            <span><i class="fa-solid fa-gears fa-lg"></i></span>
+            <div class="set-relative">
+                <span><i class="fa-solid fa-gears fa-lg"></i></span>
+                <span class="nav__notification--dot"></span>
+            </div>
         </div>
     </header>
 
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar" src="screenshots/IMG_0014.JPG" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Mandoo</h4>
-                    <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
-                </div>
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR Code</span>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+
+        <div class="Recommended-Friends">
+            <span>Recommended Friends</span>
+            <div class="Recommended-Friends__list">
+                You have no recommended friends
             </div>
         </div>
     </main>
@@ -58,11 +71,11 @@
             <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-lg"></i></i></a></li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
-                    <i class="fa-solid fa-comment fa-lg"></i>
+                    <i class="far fa-comment fa-lg"></i>
                     <span class="badge nav__notification">1</span>
                 </a>
             </li>
-            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass-chart fa-lg"></i></a></li>
             <li class="nav__btn">
                 <a class="nav__link set-relative" href="more.html">
                     <i class="fa-solid fa-ellipsis fa-lg"></i>
