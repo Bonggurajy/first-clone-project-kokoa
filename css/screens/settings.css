@@ -1,0 +1,15 @@
+.settings__setting {
+    display:flex;
+    padding : 20px 0px;
+    align-items: center;
+
+}
+
+.settings__setting i {
+    margin-right : 15px;
+}
+
+.settings__setting:nth-child(2) {
+    border-top : 1px solid rgba(0,0,0,0.1);
+    border-bottom : 1px solid rgba(0,0,0,0.1);
+}
