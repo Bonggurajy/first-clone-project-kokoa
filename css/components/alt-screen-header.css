@@ -2,7 +2,7 @@
     display : flex;
     justify-content: center;
     align-items: center;
-    padding: var(--horizontal-space) 0px;
+    padding: 25px 0px;
 }
 
 .alt-header__column:first-child {

@@ -2,11 +2,12 @@
     display:flex;
     padding : 20px 0px;
     align-items: center;
-
+    font-size : 18px;
 }
 
 .settings__setting i {
-    margin-right : 15px;
+    opacity : 0.8;
+    margin-right : 20px;
 }
 
 .settings__setting:nth-child(2) {
