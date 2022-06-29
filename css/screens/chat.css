@@ -1,7 +1,38 @@
 #chat-screen {
     background-color: #ABC1D1;
+    height : 1000vh;
 }
 
 .chatwith {
     font-size : 20px;
+}
+
+
+#chat-screen .alt-header {
+    position : fixed;
+    width:100%;
+    box-sizing: border-box;
+    background-color : #ABC1D1;
+}
+
+.alt-header__column {
+    width : 33%;
+}
+
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.alt-header__column:last-child{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+.alt-header__column:last-child span:last-child {
+    margin-left : 20px;
+}
+
+.chat__timestamp {
+    margin-top : 100px;
 }

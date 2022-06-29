@@ -1,8 +1,8 @@
 .alt-header {
     display : flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 25px 0px;
+    padding: 25px var(--horizontal-space);
 }
 
 .alt-header__column:first-child {
