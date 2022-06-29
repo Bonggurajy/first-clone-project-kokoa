@@ -6,9 +6,6 @@
     width:100%;
 }
 
-#chat-screen .status-bar {
-    background-color: #ABC1D1;
-}
 
 .status-bar__column {
     width: 33%;

@@ -7,12 +7,18 @@
     font-size : 20px;
 }
 
+#chat-screen .status-bar {
+    background-color: #ABC1D1;
+    z-index : 2;
+}
 
 #chat-screen .alt-header {
     position : fixed;
     width:100%;
     box-sizing: border-box;
     background-color : #ABC1D1;
+    z-index : 1;
+
 }
 
 .alt-header__column {
@@ -35,4 +41,22 @@
 
 .chat__timestamp {
     margin-top : 100px;
+}
+
+.main-chat {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color : white;
+    background-color: #92A4B2;
+    padding : 10px 15px;
+    border-radius: 15px;
+}
+
+.main-chat img {
+    width : 50px;
+    height: 50px;
 }
