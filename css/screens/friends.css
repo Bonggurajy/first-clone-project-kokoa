@@ -50,5 +50,5 @@
     align-items: center;
     font-size:90px;
     animation : hideSplashScreen 0.3s ease-in-out forwards; /* animation이 끝나고도 keyframes의 마지막 값을 기억하게 하기위해 forwards를 사용 */
-    animation-delay : 2s;
+    animation-delay : 1s;
 }
